@@ -13,6 +13,6 @@ router
   .route("/review")
   .post(ReviewsCtrl.apiPostReview)
   .put(ReviewsCtrl.apiUpdateReview)
-  .post(ReviewsCtrl.apiDeleteReview);
+  .delete(ReviewsCtrl.apiDeleteReview);
 
 export default router;
